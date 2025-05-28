@@ -39,19 +39,14 @@ MONGO_URI=<your_mongodb_connection_string>
 JWT_SECRET=<your_jwt_secret>
 
 start the backend server:
-
 node server.js
 
 Frontend
 Navigate to the frontend folder.
 
 Install dependencies:
-
-bash
-Copy
-Edit
 npm install
-Create a .env file for frontend environment variables (if needed, e.g. API URL).
+
 
 Start the frontend development server:
 npm run dev
